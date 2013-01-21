@@ -1,0 +1,54 @@
+
+body                { font-family: ; background-image: url("http://garethlawn.co.uk/assets/images/grid.png");
+                      font-family: OrcinLight,"Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;}
+
+.container          { width: 960px; margin: auto; background-color: white; }
+.row                { margin-top: 50px;}
+a                   { color: black; text-decoration: none;}
+a:hover             { color: red}
+
+/*Header*/
+.nav                { padding-top: 25px;}
+.nav a              { float: left; padding: 5px; font-family:	OrcinBold,​"Helvetica Neue",​Arial,​Helvetica,​Geneva,​sans-serif; font-size: 14px;}
+.logo               { display: block; width:40px; height:40px; padding-bottom: 25px}
+h1                  { font-family: OrcinBold,​"Helvetica Neue",​Arial,​Helvetica,​Geneva,​sans-serif; font-size: 18px;}
+
+.header             { padding-left: 5%; padding-top: 40px;}
+
+/*Main*/
+
+.main h3            { font-size: 36px; line-height: 48px; font-family: OrcinLight,"Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+                      padding:  5%;  text-rendering: optimizelegibility; display: block; }
+.imageMain          { width:100%; height:auto; }
+.main               { margin-top: 5%;}
+.imageMain img      { max-width: 100% !important;}
+h3                  { max-width: 100%}
+.main a             { font-size: 36px; margin-left: 5%; margin-right: 5% }
+ footer             { margin-left: 5%; margin-right: 5%}
+
+@media only screen and (max-width : 980px) {
+
+    .container{
+        width: auto;
+        margin: auto 10px;}
+    .main h3                          { font-size: 30px; line-height: 36px;}
+}
+@media only screen and (max-width : 768px) {
+
+    .container{
+        width: auto;
+        margin: auto 10px;}
+    .main h3                          { font-size: 30px; line-height: 36px;}
+    .main a                           { font-size: 30px; line-height: 36px;}
+    .span_4                           { width: 100%}
+}
+@media only screen and (max-width : 440px) {
+
+    .container{
+        width: auto;
+        margin: auto 10px;}
+    .main h3                          { font-size: 20px; line-height: 1;}
+    .main a                           { font-size: 20px; line-height: 1;}
+    .span_4                           { width: 100%}
+    .header                           { padding-top: 25px;}
+}
